@@ -3,7 +3,6 @@ import { SafeAreaView, SafeAreaProvider, useSafeAreaInsets } from "react-native-
 import { StyleSheet, Platform } from "react-native";
 
 export default function HomeScreen() {
-
     const DEV_URL = "http://10.0.2.2:5173";
     const PROD_URL = "";
     const sourceUrl = __DEV__ ? DEV_URL : PROD_URL;
