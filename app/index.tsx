@@ -4,7 +4,7 @@ import { StyleSheet, Platform } from "react-native";
 
 export default function HomeScreen() {
     const DEV_URL = "http://10.0.2.2:5173";
-    const PROD_URL = "";
+    const PROD_URL = "https://nerdinary-front.vercel.app/";
     const sourceUrl = __DEV__ ? DEV_URL : PROD_URL;
 
     const insets = useSafeAreaInsets();
